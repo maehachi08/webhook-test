@@ -1,4 +1,6 @@
-version: 1
+version: 'aaa'
 jobs:
   build:
-    key: 'name'
+    docker:
+      # - image: 'maehachi08/ruby:2.5'
+      - image2: 'maehachi08/ruby:2'
