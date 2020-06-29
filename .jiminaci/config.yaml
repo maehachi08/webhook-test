@@ -1,6 +1,10 @@
-version: 'aaa'
+version: 0.1
 jobs:
   build:
-    docker:
-      # - image: 'maehachi08/ruby:2.5'
-      - image2: 'maehachi08/ruby:2'
+    steps:
+      - run:
+          name: 'test'
+          command: |
+            echo "start"
+            date
+            echo "end"
